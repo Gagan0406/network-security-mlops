@@ -1,0 +1,13 @@
+[ 2026-02-18 21:58:58,622 ] 66 app.components.data_ingestion - INFO - Performed train test split on the dataframe
+[ 2026-02-18 21:58:58,623 ] 67 app.components.data_ingestion - INFO - Exited split_data_as_train_test method of DataIngestion class
+[ 2026-02-18 21:58:58,635 ] 72 app.components.data_ingestion - INFO - Exporting train and test file path
+[ 2026-02-18 21:58:59,013 ] 81 app.components.data_ingestion - INFO - Exported train and test file path
+[ 2026-02-18 21:58:59,042 ] 40 app.components.data_validation - INFO - Required number of columns: 2
+[ 2026-02-18 21:58:59,042 ] 41 app.components.data_validation - INFO - Data frame has columns: 31
+[ 2026-02-18 21:58:59,042 ] 90 app.components.data_validation - INFO - Train dataframe does not contain all required columns
+[ 2026-02-18 21:58:59,042 ] 40 app.components.data_validation - INFO - Required number of columns: 2
+[ 2026-02-18 21:58:59,042 ] 41 app.components.data_validation - INFO - Data frame has columns: 31
+[ 2026-02-18 21:58:59,042 ] 93 app.components.data_validation - INFO - Test dataframe does not contain all required columns
+[ 2026-02-18 21:58:59,495 ] 31 __main__ - INFO - Data validation completed successfully
+[ 2026-02-18 21:58:59,495 ] 32 __main__ - INFO - Validation status: True
+[ 2026-02-18 21:58:59,495 ] 33 __main__ - INFO - Drift report path: artifacts\02_18_2026_21_58_44\data_validation\drift_report\report.yaml
