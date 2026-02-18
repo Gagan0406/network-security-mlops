@@ -1,0 +1,7 @@
+[ 2026-02-18 20:52:59,562 ] 66 app.components.data_ingestion - INFO - Performed train test split on the dataframe
+[ 2026-02-18 20:52:59,563 ] 67 app.components.data_ingestion - INFO - Exited split_data_as_train_test method of DataIngestion class
+[ 2026-02-18 20:52:59,580 ] 72 app.components.data_ingestion - INFO - Exporting train and test file path
+[ 2026-02-18 20:52:59,968 ] 81 app.components.data_ingestion - INFO - Exported train and test file path
+[ 2026-02-18 20:52:59,969 ] 18 __main__ - INFO - Data ingestion completed successfully
+[ 2026-02-18 20:52:59,969 ] 19 __main__ - INFO - Train file path: artifacts\02_18_2026_20_52_44\data_ingestion\ingested\train.csv
+[ 2026-02-18 20:52:59,969 ] 20 __main__ - INFO - Test file path: artifacts\02_18_2026_20_52_44\data_ingestion\ingested\test.csv

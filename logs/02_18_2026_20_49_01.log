@@ -1,0 +1,1 @@
+[ 2026-02-18 20:49:25,960 ] 25 __main__ - ERROR - Unexpected error during data ingestion: NetworkSecurityException.__init__() missing 1 required positional argument: 'error_message'
