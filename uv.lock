@@ -1287,6 +1287,7 @@ name = "network-security-project"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "certifi" },
     { name = "dagshub" },
     { name = "dvc" },
     { name = "numpy" },
@@ -1298,6 +1299,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "certifi", specifier = ">=2026.1.4" },
     { name = "dagshub", specifier = ">=0.6.6" },
     { name = "dvc", specifier = ">=3.66.1" },
     { name = "numpy", specifier = ">=2.4.2" },

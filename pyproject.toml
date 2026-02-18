@@ -1,10 +1,10 @@
 [project]
 name = "network-security-project"
 version = "0.1.0"
-description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "certifi>=2026.1.4",
     "dagshub>=0.6.6",
     "dvc>=3.66.1",
     "numpy>=2.4.2",

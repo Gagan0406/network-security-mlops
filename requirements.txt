@@ -5,3 +5,4 @@ dagshub
 dvc
 scikit-learn
 pymongo
+certifi
