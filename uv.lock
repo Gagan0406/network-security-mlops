@@ -1304,7 +1304,7 @@ requires-dist = [
     { name = "dvc", specifier = ">=3.66.1" },
     { name = "numpy", specifier = ">=2.4.2" },
     { name = "pandas", specifier = ">=3.0.1" },
-    { name = "pymongo", specifier = ">=4.16.0" },
+    { name = "pymongo", extras = ["srv"], specifier = ">=4.16.0" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
 ]

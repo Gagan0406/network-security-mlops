@@ -1,0 +1,3 @@
+[ 2026-02-18 14:40:44,770 ] 29 __main__ - INFO - Database is connected
+[ 2026-02-18 14:40:44,864 ] 39 __main__ - INFO - Converted CSV to JSON records from data\phisingData.csv
+[ 2026-02-18 14:40:56,987 ] 53 __main__ - INFO - Inserted 11055 records into db.NetworkData
