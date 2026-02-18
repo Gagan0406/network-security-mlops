@@ -1,0 +1,7 @@
+python-dotenv
+pandas
+numpy
+dagshub
+dvc
+scikit-learn
+pymongo
