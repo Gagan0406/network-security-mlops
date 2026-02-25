@@ -1,0 +1,22 @@
+[ 2026-02-26 04:00:10,759 ] 66 app.components.data_ingestion - INFO - Performed train test split on the dataframe
+[ 2026-02-26 04:00:10,760 ] 67 app.components.data_ingestion - INFO - Exited split_data_as_train_test method of DataIngestion class
+[ 2026-02-26 04:00:10,779 ] 72 app.components.data_ingestion - INFO - Exporting train and test file path
+[ 2026-02-26 04:00:11,232 ] 81 app.components.data_ingestion - INFO - Exported train and test file path
+[ 2026-02-26 04:00:11,358 ] 40 app.components.data_validation - INFO - Required number of columns: 2
+[ 2026-02-26 04:00:11,358 ] 41 app.components.data_validation - INFO - Data frame has columns: 31
+[ 2026-02-26 04:00:11,358 ] 90 app.components.data_validation - INFO - Train dataframe does not contain all required columns
+[ 2026-02-26 04:00:11,358 ] 40 app.components.data_validation - INFO - Required number of columns: 2
+[ 2026-02-26 04:00:11,358 ] 41 app.components.data_validation - INFO - Data frame has columns: 31
+[ 2026-02-26 04:00:11,358 ] 93 app.components.data_validation - INFO - Test dataframe does not contain all required columns
+[ 2026-02-26 04:00:12,004 ] 66 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-02-26 04:00:12,004 ] 68 root - INFO - Starting data transformation
+[ 2026-02-26 04:00:12,048 ] 51 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2026-02-26 04:00:12,048 ] 56 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-02-26 04:00:12,148 ] 51 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-26 04:00:12,285 ] 55 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-26 04:00:12,285 ] 51 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-26 04:00:12,350 ] 55 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-26 04:00:12,352 ] 44 __main__ - INFO - Data transformation completed successfully
+[ 2026-02-26 04:00:12,352 ] 45 __main__ - INFO - Transformed object path: artifacts\02_26_2026_04_00_00\data_transformation\transformed_object\preprocessing.pkl
+[ 2026-02-26 04:00:12,352 ] 46 __main__ - INFO - Transformed train array path: artifacts\02_26_2026_04_00_00\data_transformation\transformed\train.npy
+[ 2026-02-26 04:00:12,352 ] 47 __main__ - INFO - Transformed test array path: artifacts\02_26_2026_04_00_00\data_transformation\transformed\test.npy

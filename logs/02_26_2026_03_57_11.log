@@ -1,0 +1,13 @@
+[ 2026-02-26 03:57:36,202 ] 66 app.components.data_ingestion - INFO - Performed train test split on the dataframe
+[ 2026-02-26 03:57:36,202 ] 67 app.components.data_ingestion - INFO - Exited split_data_as_train_test method of DataIngestion class
+[ 2026-02-26 03:57:36,215 ] 72 app.components.data_ingestion - INFO - Exporting train and test file path
+[ 2026-02-26 03:57:36,659 ] 81 app.components.data_ingestion - INFO - Exported train and test file path
+[ 2026-02-26 03:57:36,839 ] 40 app.components.data_validation - INFO - Required number of columns: 2
+[ 2026-02-26 03:57:36,839 ] 41 app.components.data_validation - INFO - Data frame has columns: 31
+[ 2026-02-26 03:57:36,839 ] 90 app.components.data_validation - INFO - Train dataframe does not contain all required columns
+[ 2026-02-26 03:57:36,839 ] 40 app.components.data_validation - INFO - Required number of columns: 2
+[ 2026-02-26 03:57:36,839 ] 41 app.components.data_validation - INFO - Data frame has columns: 31
+[ 2026-02-26 03:57:36,839 ] 93 app.components.data_validation - INFO - Test dataframe does not contain all required columns
+[ 2026-02-26 03:57:37,396 ] 67 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-02-26 03:57:37,396 ] 69 root - INFO - Starting data transformation
+[ 2026-02-26 03:57:37,442 ] 53 __main__ - ERROR - Unexpected error during data transformation: cannot unpack non-iterable module object
